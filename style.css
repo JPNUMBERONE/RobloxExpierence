@@ -1,0 +1,201 @@
+/* the 100vh and 100vw set the size of the body to fill the viewport (screen) */
+@import url(https://www.fontspace.com/roblox-2017-font-f35100);
+body {
+  height: 100vh;
+  width: 100vw;
+  display: block;
+  margin: 0;
+}
+/* this class specifies shape */
+.logo {
+  height: 15%;
+  width: 100%;
+}
+.bottom {
+  height: 25%;
+  width: 100%;
+  display: flex;
+}
+.box {
+  height: 100%;
+  width: 50%;
+}
+.trailer {
+  height: 60%;
+  width: 100%;
+  display: flex;
+}
+.row-1 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+.row-2 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+.half-left {
+  height: 100%;
+  width: 100%;
+}
+.half-right {
+  height: 100%;
+  width: 100%;
+  background-image: url("images/rbx.webp"); /* The image used */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+.custom-font {
+  font-family: "roblox-2017-font-f35100", cursive;
+}
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
+.img-container {
+  height: 100%;
+  width: 100%;
+}
+.img-container2 {
+  height: 100%;
+  max-width: 100%;
+}
+.center-content {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.clickable1 {
+  filter: brightness(85%);
+}
+/* changes to the style when the user HOVERS */
+.clickable1:hover {
+  cursor: pointer;
+  filter: brightness(110%);
+  transition: transform 0.15s ease, filter 0.15s ease;
+  transform: scale(1);
+}
+/* changes to the style when the user CLICKS */
+.clickable1:active {
+  transform: scale(0.95);
+  transition: transform 0.15s ease, filter 0.15s ease;
+}
+.clickable2 {
+  filter: brightness(85%);
+}
+/* changes to the style when the user HOVERS */
+.clickable2:hover {
+  cursor: pointer;
+  filter: brightness(110%);
+  transition: transform 0.15s ease, filter 0.15s ease;
+  transform: scale(1);
+}
+p {
+  font-size: 12pt;
+  text-align: center;
+}
+.hide {
+  display: none;
+}
+/* these classes specify color */
+.yellow {
+  background-color: #fbe532;
+}
+.green {
+  background-color: #0d710a;
+  filter: brightness(110%);
+}
+.black {
+  background-color: #000000;
+}
+.purple {
+  background-color: #916cf7;
+  filter: brightness(110%);
+}
+.blue {
+  background-color: #2f94da;
+  filter: brightness(110%);
+}
+.red {
+  background-color: #ae1716;
+  filter: brightness(110%);
+}
+.gone {
+  display: none;
+}
+@media only screen and (max-width: 850px) {
+  p {
+    font-size: 10pt;
+    text-align: center;
+  }
+}
+
+/* styles if the screen is 600px or less */
+@media only screen and (max-width: 600px) {
+  .trailer {
+    height: 40%;
+    width: 100%;
+  }
+  .bottom {
+    height: 45%;
+    width: 100%;
+  }
+  .row-1 {
+    height: 50%;
+    width: 100%;
+    display: block;
+  }
+  .row-2 {
+    height: 50%;
+    width: 100%;
+    display: block;
+  }
+  .box {
+    width: 100%;
+    height: 100%;
+  }
+  p {
+    font-size: 11pt;
+    text-align: center;
+  }
+  .half-right {
+    display: none;
+  }
+  .half-left {
+    width: 100%;
+    background-image: url("images/coaster.png"); /* The image used */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .trailer {
+    height: 30%;
+    width: 100%;
+  }
+  .bottom {
+    height: 55%;
+    width: 100%;
+    display: block;
+  }
+  .box {
+    height: 50%;
+    width: 100%;
+  }
+  .row-1 {
+    height: 50%;
+    width: 100%;
+  }
+  .row-2 {
+    height: 50%;
+    width: 100%;
+  }
+  p {
+    font-size: 8pt;
+    text-align: center;
+  }
+}

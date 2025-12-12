@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- link the CSS file -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Checkerboard Challenge</title>
+  </head>
+  <body>
+    <!-- children of the body element -->
+    <div class="logo black center-content">
+      <img
+        src="images/roblox-cover-image.jpg"
+        id="soundDiv"
+        class="clickable1"
+        onclick="removeall()"
+      />
+    </div>
+    <div class="trailer yellow center-content">
+      <div class="yellow half-right center-content img-container">
+        <img src="" id="tuff" class="clickable1" onclick="trailer()">
+      </div>
+        <div class="yellow half-left">
+          <iframe
+        width="960"
+        height="762.58"
+        src="https://www.youtube.com/embed/3y3MdGrgOCA?si=Q4GbeH2RCwT0cr4z"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        class="img-container2"
+        id="video-container"
+        allowfullscreen
+      ></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="bottom">
+      <!-- 4 children -->
+      <div class="row-1">
+        <div class="box blue center-content">
+          <p class="hide img-container center-content custom-font" id="text1">
+            Quickly, run around in circles! Your life depends on it!<br />
+            Visits: 3.9 Billion<br />
+            Created: 3/28/2008
+          </p>
+          <img
+            src="images/NaturalDisasterSurvival.jpg"
+            class="clickable1"
+            id="info"
+            onclick="remove()"
+          />
+        </div>
+        <div class="box green center-content">
+          <p class="hide img-container center-content custom-font" id="text2">
+            Locked in a flooding facility, you and your team must work together
+            to push buttons, find the way out, crack the code and escape before
+            the flood takes you!<br />
+            Visits: 575 Million<br />
+            Created: 8/15/2010
+          </p>
+          <img
+            src="images/FE.webp"
+            class="clickable1"
+            id="info2"
+            onclick="remove2()"
+          />
+        </div>
+      </div>
+      <div class="row-2">
+        <div class="box red center-content">
+          <p class="hide img-container center-content custom-font" id="text3">
+            A cops and robbers open-world game where players choose to become
+            criminals who escape prison to commit robberies or police who hunt
+            down criminals!<br />
+            Visits: 7.66 Billion<br />
+            Created: 4/21/2017
+          </p>
+          <img
+            src="images/jails.jpg"
+            class="clickable1"
+            id="info3"
+            onclick="remove3()"
+          />
+        </div>
+        <div class="box purple center-content">
+          <p id="text4" class="hide img-container center-content custom-font">
+            Join in the fun and test your skill with this fast paced
+            platformer!<br />
+            Visits: 1.64 Billion<br />
+            Created: 10/20/2014
+          </p>
+          <img
+            src="images/speedv2.png"
+            class="clickable1"
+            id="info4"
+            onclick="remove4()"
+          />
+        </div>
+      </div>
+    </div>
+    <audio src="images/Sounds/oof.mp3" id="oof"></audio>
+    <audio src="images/Sounds/nom.mp3" id="nom"></audio>
+    <audio src="images/Sounds/scary2.mp3" id="scary"></audio>
+    <audio src="images/Sounds/gg.mp3" id="gg"></audio>
+    <audio src="images/Sounds/boom.mp3" id="boom"></audio>
+    <audio src="images/Sounds/cola.mp3" id="cola"></audio>
+    <audio src="images/Sounds/gravity.mp3" id="gravity"></audio>
+    <audio src="images/Sounds/mmm.mp3" id="mmm"></audio>
+    <audio src="images/Sounds/pizza.mp3" id="pizza"></audio>
+    <audio src="images/Sounds/speed.mp3" id="speed"></audio>
+    <audio src="images/Sounds/sword.mp3" id="sword"></audio>
+    <audio src="images/Sounds/boop.mp3" id="boop"></audio>
+    <script src="script.js"></script>
+  </body>
+</html>
